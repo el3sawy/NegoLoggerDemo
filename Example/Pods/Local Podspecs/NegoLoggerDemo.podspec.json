@@ -17,6 +17,6 @@
   },
   "source_files": "NegoLoggerDemo/**/*.{swift}",
   "swift_versions": "5.0",
-  "resources": "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "resources": "NegoLoggerDemo/**/*.{xib}",
   "swift_version": "5.0"
 }

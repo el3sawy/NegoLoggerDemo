@@ -18,8 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        NegoLogger.log(event: <#T##String#>)
 //        BaseViewModel().fetchData()
         window = UIWindow()
-        let vc = HomeViewController.loadFromNib()
-        window?.rootViewController = vc
+        let vc = HomeViewController()
+        let nib = UINib(nibName: "HomeViewController", bundle: Bundle(for: type(of: self))
+        
+        window?.rootViewController = nib
         window?.makeKeyAndVisible()
        
         return true
