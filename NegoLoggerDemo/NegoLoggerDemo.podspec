@@ -94,6 +94,7 @@ Pod::Spec.new do |spec|
 
   spec.resources = "NegoLoggerDemo/*.xib"
 
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
