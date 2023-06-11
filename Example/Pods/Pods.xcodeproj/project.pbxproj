@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		114402CF7332554D5934034D9636F55F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */; };
 		3E281F552573926384EC12AE127053DA /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4239E4B2E4B9F2011722709848F57F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		62CBEADA9F8A018101E5619247285083 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+		77E5E7EF2A366101000049CB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */; };
+		77E5E7F02A366143000049CB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */; };
 		89B8150360B8D4049C7B28B27DA6F281 /* NegoLoggerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BE3C576FB1C5FF6D72CA02251AF0B6 /* NegoLoggerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B17238163507705A203BB7379BF4BAC /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AB31EB98A62D97A7D5A340AA4AECB /* BaseViewModel.swift */; };
 		A8CB075A8AB6902087457E2AAD0631BF /* NegoLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D7E8444A5DF528F8794F352772E8B /* NegoLogger.swift */; };
@@ -45,7 +46,7 @@
 		65BE3C576FB1C5FF6D72CA02251AF0B6 /* NegoLoggerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A87016F38C1FA5D8CAB33FCE18FB1A22 /* NegoLoggerDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-prefix.pch"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B1D0C05F9023D3B592A377353104BB2F /* NegoLoggerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NegoLoggerDemo; path = NegoLoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,7 +178,6 @@
 				3D3183742170997E537790D6E2B86BE2 /* Resources */,
 				AAA051C38471398DFA74C613FD2747A3 /* Support Files */,
 			);
-			name = NegoLoggerDemo;
 			path = NegoLoggerDemo;
 			sourceTree = "<group>";
 		};
@@ -273,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E5E7F02A366143000049CB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114402CF7332554D5934034D9636F55F /* HomeViewController.xib in Resources */,
+				77E5E7EF2A366101000049CB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

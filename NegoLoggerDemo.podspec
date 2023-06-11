@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "5.0"
 
   # spec.resources = "NegoLoggerDemo/*.xib"
-  spec.resources = "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "NegoLoggerDemo/**/*.{xib}"
   # spec.public_header_files = "Classes/**/*.h"
 
 
