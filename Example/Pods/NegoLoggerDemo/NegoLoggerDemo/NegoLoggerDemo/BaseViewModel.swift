@@ -8,7 +8,9 @@
 import Foundation
 
 public class BaseViewModel {
-    
+    public init() {
+        
+    }
     public func fetchData() {
         print("Hoooooo")
     }
