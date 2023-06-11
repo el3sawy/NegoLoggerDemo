@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        NegoLogger.log(event: <#T##String#>)
 //        BaseViewModel().fetchData()
         window = UIWindow()
-        let vc = HomeViewController()
+        let vc = HomeViewController.loadFromNib()
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
        
