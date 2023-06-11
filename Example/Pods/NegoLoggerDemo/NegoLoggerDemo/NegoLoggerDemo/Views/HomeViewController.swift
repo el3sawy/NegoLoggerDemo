@@ -9,7 +9,6 @@ import UIKit
 
 public class HomeViewController: UIViewController {
 
-    @IBOutlet weak var btn: UIButton!
     public init() {
         super.init(nibName: nil, bundle: nil)
     }
@@ -20,7 +19,6 @@ public class HomeViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        btn.backgroundColor = .black
         
     }
     
