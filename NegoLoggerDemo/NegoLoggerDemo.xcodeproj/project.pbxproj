@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		77E5E7DF2A363BE9000049CB /* NegoLoggerDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E5E7DE2A363BE9000049CB /* NegoLoggerDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77E5E7E62A363C06000049CB /* NegoLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5E7E52A363C06000049CB /* NegoLogger.swift */; };
+		77E5E7E82A3655DF000049CB /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5E7E72A3655DF000049CB /* BaseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77E5E7DB2A363BE9000049CB /* NegoLoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NegoLoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E5E7DE2A363BE9000049CB /* NegoLoggerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NegoLoggerDemo.h; sourceTree = "<group>"; };
 		77E5E7E52A363C06000049CB /* NegoLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegoLogger.swift; sourceTree = "<group>"; };
+		77E5E7E72A3655DF000049CB /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				77E5E7DE2A363BE9000049CB /* NegoLoggerDemo.h */,
 				77E5E7E52A363C06000049CB /* NegoLogger.swift */,
+				77E5E7E72A3655DF000049CB /* BaseViewModel.swift */,
 			);
 			path = NegoLoggerDemo;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77E5E7E62A363C06000049CB /* NegoLogger.swift in Sources */,
+				77E5E7E82A3655DF000049CB /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
