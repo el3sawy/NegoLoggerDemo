@@ -96,7 +96,9 @@ Pod::Spec.new do |spec|
   # spec.resources = "NegoLoggerDemo/**/*.{xib}"
   spec.resources    = "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   # spec.public_header_files = "Classes/**/*.h"
-  spec.resource_bundles =  "NegoLoggerDemo/**/*.{xib}"
+  spec.resource_bundles = {
+    'MyPodResources' => ['NegoLoggerDemo/Assets/*.png', 'NegoLoggerDemo/Assets/*.xib']
+  }
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
