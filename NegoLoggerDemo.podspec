@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
 
   # spec.resources = "NegoLoggerDemo/*.xib"
   # spec.resources = "NegoLoggerDemo/**/*.{xib}"
-  spec.resources    = 'NegoLoggerDemo/HomeViewController.xib'
+  spec.resources    = "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   # spec.public_header_files = "Classes/**/*.h"
 
 

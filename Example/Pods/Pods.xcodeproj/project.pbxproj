@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		114402CF7332554D5934034D9636F55F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */; };
+		0F41221413D8773671D732158715531B /* NegoLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF4BE54FB279618F72472E581F6CCE /* NegoLogger.swift */; };
+		2F8EE280D65C2511988CEA115685004C /* NegoLoggerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B652D4AB6120AC48B28B159C860D79 /* NegoLoggerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E281F552573926384EC12AE127053DA /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4239E4B2E4B9F2011722709848F57F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		62CBEADA9F8A018101E5619247285083 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		89B8150360B8D4049C7B28B27DA6F281 /* NegoLoggerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BE3C576FB1C5FF6D72CA02251AF0B6 /* NegoLoggerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B17238163507705A203BB7379BF4BAC /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AB31EB98A62D97A7D5A340AA4AECB /* BaseViewModel.swift */; };
-		A8CB075A8AB6902087457E2AAD0631BF /* NegoLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D7E8444A5DF528F8794F352772E8B /* NegoLogger.swift */; };
+		87D80D4C15E8D2FC3086B0DE50961D92 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A576468D3BDE430CC2457E489A2E51 /* HomeViewController.swift */; };
 		B892B32DB8A4B2434E2AEAF58E87575E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E7A3924C9CE4D572A37180BFBC43E90E /* NegoLoggerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F07989307A9FD505E1B30DF135D121 /* NegoLoggerDemo-dummy.m */; };
-		FD78A111E9EF1607436E3B8429AF0DFA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BBDDBFB46505FA1AA3537BA78593FF /* HomeViewController.swift */; };
+		C516EFB54A3B0F73A3D23A1DA7F405BF /* NegoLoggerDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4901B7E09FAF107865DEFAD75C2542 /* NegoLoggerDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDFD350C8AEFAD5D2653DFEC964182A1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343AF7505F71E38D25627E019203E6E4 /* BaseViewModel.swift */; };
+		D2C102FE9C8E2B845AD52F3BBAB769B3 /* NegoLoggerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50942B7BCDC7EAA888952BD4CAAF585B /* NegoLoggerDemo-dummy.m */; };
+		FE841FC77E22F0CECCFBAA49AF83F261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C65B6798F74598DB610A59FA1157B0D /* PBXContainerItemProxy */ = {
+		55DFA9F8EB6CC602ED2DE76B1F47352D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,41 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5AB31EB98A62D97A7D5A340AA4AECB /* BaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = NegoLoggerDemo/NegoLoggerDemo/BaseViewModel.swift; sourceTree = "<group>"; };
-		0D7DDC51C0596C08A283E96788A0786B /* NegoLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NegoLoggerDemo.debug.xcconfig; sourceTree = "<group>"; };
-		152C609591739DB6D0B40E96BE302148 /* NegoLoggerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NegoLoggerDemo-Info.plist"; sourceTree = "<group>"; };
-		16F07989307A9FD505E1B30DF135D121 /* NegoLoggerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NegoLoggerDemo-dummy.m"; sourceTree = "<group>"; };
-		1A3D7E8444A5DF528F8794F352772E8B /* NegoLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NegoLogger.swift; path = NegoLoggerDemo/NegoLoggerDemo/NegoLogger.swift; sourceTree = "<group>"; };
-		1E670F39798D8A5FB1994D86752F2D7B /* NegoLoggerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NegoLoggerDemo.modulemap; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D194410CFE41E3C0951C67B29582E51 /* NegoLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NegoLoggerDemo.release.xcconfig; sourceTree = "<group>"; };
+		2CE5152F323E9C2303524906D599CC7A /* NegoLoggerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NegoLoggerDemo.modulemap; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		343AF7505F71E38D25627E019203E6E4 /* BaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = NegoLoggerDemo/NegoLoggerDemo/BaseViewModel.swift; sourceTree = "<group>"; };
+		34FF4BE54FB279618F72472E581F6CCE /* NegoLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NegoLogger.swift; path = NegoLoggerDemo/NegoLoggerDemo/NegoLogger.swift; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65BE3C576FB1C5FF6D72CA02251AF0B6 /* NegoLoggerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-umbrella.h"; sourceTree = "<group>"; };
+		45A576468D3BDE430CC2457E489A2E51 /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = NegoLoggerDemo/NegoLoggerDemo/Views/HomeViewController.swift; sourceTree = "<group>"; };
+		4E9B50621A1DE41940FA97B8848EA449 /* NegoLoggerDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-prefix.pch"; sourceTree = "<group>"; };
+		50942B7BCDC7EAA888952BD4CAAF585B /* NegoLoggerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NegoLoggerDemo-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87016F38C1FA5D8CAB33FCE18FB1A22 /* NegoLoggerDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-prefix.pch"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B1D0C05F9023D3B592A377353104BB2F /* NegoLoggerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NegoLoggerDemo; path = NegoLoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C4BBDDBFB46505FA1AA3537BA78593FF /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = NegoLoggerDemo/NegoLoggerDemo/Views/HomeViewController.swift; sourceTree = "<group>"; };
+		C1B652D4AB6120AC48B28B159C860D79 /* NegoLoggerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NegoLoggerDemo-umbrella.h"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HomeViewController.xib; path = NegoLoggerDemo/NegoLoggerDemo/Views/HomeViewController.xib; sourceTree = "<group>"; };
+		DE4901B7E09FAF107865DEFAD75C2542 /* NegoLoggerDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NegoLoggerDemo.h; path = NegoLoggerDemo/NegoLoggerDemo/NegoLoggerDemo.h; sourceTree = "<group>"; };
+		E5CF30B8057AF93C8324315FDDA8811A /* NegoLoggerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NegoLoggerDemo-Info.plist"; sourceTree = "<group>"; };
+		E635B50A5BE990AE2A5494408E8E9A71 /* NegoLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NegoLoggerDemo.debug.xcconfig; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4A0E1A9EE212580EF57A550DCC273E1 /* NegoLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NegoLoggerDemo.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76E96138F2EA580C2EC9297622F36231 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4239E4B2E4B9F2011722709848F57F7E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80098DA9B51263D19FDB0216BE720B28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,21 +65,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B877474A64D23C8FC128BA3FA5929A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE841FC77E22F0CECCFBAA49AF83F261 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D3183742170997E537790D6E2B86BE2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E4CD8AF8BF72F64EAD8F40F0E974080F /* HomeViewController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		47BB079D71E113244260C5D8717F9020 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE5A1E975F4297A51EA92B86D1CC61CC /* NegoLoggerDemo */,
+				B1BD28CF65A31E00FDD3923840BB1CAA /* NegoLoggerDemo */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -126,19 +118,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAA051C38471398DFA74C613FD2747A3 /* Support Files */ = {
+		B1BD28CF65A31E00FDD3923840BB1CAA /* NegoLoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1E670F39798D8A5FB1994D86752F2D7B /* NegoLoggerDemo.modulemap */,
-				16F07989307A9FD505E1B30DF135D121 /* NegoLoggerDemo-dummy.m */,
-				152C609591739DB6D0B40E96BE302148 /* NegoLoggerDemo-Info.plist */,
-				A87016F38C1FA5D8CAB33FCE18FB1A22 /* NegoLoggerDemo-prefix.pch */,
-				65BE3C576FB1C5FF6D72CA02251AF0B6 /* NegoLoggerDemo-umbrella.h */,
-				0D7DDC51C0596C08A283E96788A0786B /* NegoLoggerDemo.debug.xcconfig */,
-				2D194410CFE41E3C0951C67B29582E51 /* NegoLoggerDemo.release.xcconfig */,
+				343AF7505F71E38D25627E019203E6E4 /* BaseViewModel.swift */,
+				45A576468D3BDE430CC2457E489A2E51 /* HomeViewController.swift */,
+				34FF4BE54FB279618F72472E581F6CCE /* NegoLogger.swift */,
+				DE4901B7E09FAF107865DEFAD75C2542 /* NegoLoggerDemo.h */,
+				F12246F18403C2B7158EE6DE56EE2264 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NegoLoggerDemo";
+			name = NegoLoggerDemo;
+			path = NegoLoggerDemo;
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -168,17 +158,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE5A1E975F4297A51EA92B86D1CC61CC /* NegoLoggerDemo */ = {
+		F12246F18403C2B7158EE6DE56EE2264 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A5AB31EB98A62D97A7D5A340AA4AECB /* BaseViewModel.swift */,
-				C4BBDDBFB46505FA1AA3537BA78593FF /* HomeViewController.swift */,
-				1A3D7E8444A5DF528F8794F352772E8B /* NegoLogger.swift */,
-				3D3183742170997E537790D6E2B86BE2 /* Resources */,
-				AAA051C38471398DFA74C613FD2747A3 /* Support Files */,
+				2CE5152F323E9C2303524906D599CC7A /* NegoLoggerDemo.modulemap */,
+				50942B7BCDC7EAA888952BD4CAAF585B /* NegoLoggerDemo-dummy.m */,
+				E5CF30B8057AF93C8324315FDDA8811A /* NegoLoggerDemo-Info.plist */,
+				4E9B50621A1DE41940FA97B8848EA449 /* NegoLoggerDemo-prefix.pch */,
+				C1B652D4AB6120AC48B28B159C860D79 /* NegoLoggerDemo-umbrella.h */,
+				E635B50A5BE990AE2A5494408E8E9A71 /* NegoLoggerDemo.debug.xcconfig */,
+				F4A0E1A9EE212580EF57A550DCC273E1 /* NegoLoggerDemo.release.xcconfig */,
 			);
-			name = NegoLoggerDemo;
-			path = NegoLoggerDemo;
+			name = "Support Files";
+			path = "../Target Support Files/NegoLoggerDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +184,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907B1319EEB09250BF3142820E89A64E /* Headers */ = {
+		83C3D4F5418C9D3647122EAEFE8311D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B8150360B8D4049C7B28B27DA6F281 /* NegoLoggerDemo-umbrella.h in Headers */,
+				C516EFB54A3B0F73A3D23A1DA7F405BF /* NegoLoggerDemo.h in Headers */,
+				2F8EE280D65C2511988CEA115685004C /* NegoLoggerDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +208,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				614ADA2FD0AE115E5DC18D7DFC9643A5 /* PBXTargetDependency */,
+				8BFC0A45B0FC189E98A09D6EB0AAEF28 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -224,12 +217,12 @@
 		};
 		3FF3D3DD404BC9A81EA7783C0A0E75A9 /* NegoLoggerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DA70D1DEA11A720EAC2B94837BA83F1 /* Build configuration list for PBXNativeTarget "NegoLoggerDemo" */;
+			buildConfigurationList = 02414B6B14B034390452462DD3AA6F22 /* Build configuration list for PBXNativeTarget "NegoLoggerDemo" */;
 			buildPhases = (
-				907B1319EEB09250BF3142820E89A64E /* Headers */,
-				75BBCEDB8D67CF30DD9C4D518BFFFB9F /* Sources */,
-				76E96138F2EA580C2EC9297622F36231 /* Frameworks */,
-				E50417C37D2E64F61C5C1A9C009B8477 /* Resources */,
+				83C3D4F5418C9D3647122EAEFE8311D1 /* Headers */,
+				34AC7914D16FC19530FAE97754ADE95B /* Sources */,
+				B877474A64D23C8FC128BA3FA5929A69 /* Frameworks */,
+				E35F4E278C30E4886850D185D018ED1D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,25 +269,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E50417C37D2E64F61C5C1A9C009B8477 /* Resources */ = {
+		E35F4E278C30E4886850D185D018ED1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				114402CF7332554D5934034D9636F55F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		75BBCEDB8D67CF30DD9C4D518BFFFB9F /* Sources */ = {
+		34AC7914D16FC19530FAE97754ADE95B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B17238163507705A203BB7379BF4BAC /* BaseViewModel.swift in Sources */,
-				FD78A111E9EF1607436E3B8429AF0DFA /* HomeViewController.swift in Sources */,
-				A8CB075A8AB6902087457E2AAD0631BF /* NegoLogger.swift in Sources */,
-				E7A3924C9CE4D572A37180BFBC43E90E /* NegoLoggerDemo-dummy.m in Sources */,
+				CDFD350C8AEFAD5D2653DFEC964182A1 /* BaseViewModel.swift in Sources */,
+				87D80D4C15E8D2FC3086B0DE50961D92 /* HomeViewController.swift in Sources */,
+				0F41221413D8773671D732158715531B /* NegoLogger.swift in Sources */,
+				D2C102FE9C8E2B845AD52F3BBAB769B3 /* NegoLoggerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +301,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		614ADA2FD0AE115E5DC18D7DFC9643A5 /* PBXTargetDependency */ = {
+		8BFC0A45B0FC189E98A09D6EB0AAEF28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NegoLoggerDemo;
 			target = 3FF3D3DD404BC9A81EA7783C0A0E75A9 /* NegoLoggerDemo */;
-			targetProxy = 4C65B6798F74598DB610A59FA1157B0D /* PBXContainerItemProxy */;
+			targetProxy = 55DFA9F8EB6CC602ED2DE76B1F47352D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,9 +451,9 @@
 			};
 			name = Debug;
 		};
-		D2CDD81A05077B723E285148E4317D60 /* Debug */ = {
+		AFE9DEDA046CCC080F613A690B2B7E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D7DDC51C0596C08A283E96788A0786B /* NegoLoggerDemo.debug.xcconfig */;
+			baseConfigurationReference = E635B50A5BE990AE2A5494408E8E9A71 /* NegoLoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -494,9 +486,9 @@
 			};
 			name = Debug;
 		};
-		E1FDE49EE0A390AD7BAAD86763EFF19F /* Release */ = {
+		B512E84916755D3DC891CDD7B705C606 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D194410CFE41E3C0951C67B29582E51 /* NegoLoggerDemo.release.xcconfig */;
+			baseConfigurationReference = F4A0E1A9EE212580EF57A550DCC273E1 /* NegoLoggerDemo.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -595,11 +587,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DA70D1DEA11A720EAC2B94837BA83F1 /* Build configuration list for PBXNativeTarget "NegoLoggerDemo" */ = {
+		02414B6B14B034390452462DD3AA6F22 /* Build configuration list for PBXNativeTarget "NegoLoggerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2CDD81A05077B723E285148E4317D60 /* Debug */,
-				E1FDE49EE0A390AD7BAAD86763EFF19F /* Release */,
+				AFE9DEDA046CCC080F613A690B2B7E35 /* Debug */,
+				B512E84916755D3DC891CDD7B705C606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
