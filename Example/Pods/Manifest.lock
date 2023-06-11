@@ -1,0 +1,16 @@
+PODS:
+  - NegoLoggerDemo (1.0.0)
+
+DEPENDENCIES:
+  - NegoLoggerDemo (from `../NegoLoggerDemo`)
+
+EXTERNAL SOURCES:
+  NegoLoggerDemo:
+    :path: "../NegoLoggerDemo"
+
+SPEC CHECKSUMS:
+  NegoLoggerDemo: 0b7e54cdd73d0ab5ca74dd81222e5f1533188bc0
+
+PODFILE CHECKSUM: a204a6016dbf829d55971139757a83240dd9f939
+
+COCOAPODS: 1.12.1
