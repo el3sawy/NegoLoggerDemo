@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import NegoLoggerDemo
+//import NegoLoggerDemo
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
