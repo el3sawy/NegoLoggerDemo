@@ -107,6 +107,11 @@ Pod::Spec.new do |spec|
 
   spec.resources = "NegoLoggerDemo/*.xib"
 
+  s.resource_bundles = {
+    'NegoLoggerDemo' => [
+        'Pod/**/*.xib'
+    ]
+  }
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
