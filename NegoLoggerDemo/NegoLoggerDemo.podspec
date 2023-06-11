@@ -92,6 +92,13 @@ Pod::Spec.new do |spec|
   spec.source_files  = "NegoLoggerDemo/**/*.{swift}"
   spec.swift_versions = "5.0"
 
+  spec.resources = "NegoLoggerDemo/*.xib"
+
+  s.resource_bundles = {
+    'NegoLoggerDemo' => [
+        'Pod/**/*.xib'
+    ]
+  }
   # spec.public_header_files = "Classes/**/*.h"
 
 
