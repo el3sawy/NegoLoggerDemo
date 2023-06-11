@@ -21,4 +21,11 @@ public class HomeViewController: UIViewController {
         view.backgroundColor = .red
         
     }
+    
+    
+    @IBAction func tapped(_ sender: Any) {
+        
+        print("Tappped")
+    }
+    
 }

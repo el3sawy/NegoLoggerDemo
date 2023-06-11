@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NegoLoggerDemo:
-    :commit: daa5af2427c234282d9075551663e42f1904a317
+    :commit: d7c27103558d123b35d644a169fb4fef03947fc7
     :git: https://github.com/el3sawy/NegoLoggerDemo.git
 
 SPEC CHECKSUMS:
