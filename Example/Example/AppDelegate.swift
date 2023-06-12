@@ -18,18 +18,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        NegoLogger.log(event: <#T##String#>)
 //        BaseViewModel().fetchData()
         window = UIWindow()
-//        let vc = HomeViewController.loadFromNib()
-        let b = Bundle(identifier: "NegoLoggerDemo")
-        let nib = UINib(nibName: "HomeViewController", bundle: b)
-       let test = b?.loadNibNamed("HomeViewController", owner: self)
-        let x = nib.instantiate(withOwner: self)
-        let view = nib.instantiate(withOwner: self, options: nil).first as! UIViewController
-        window?.rootViewController = view
+        let vc = HomeViewController.loadFromNib()
+//        let bundle = Bundle(identifier: "org.cocoapods.NegoLoggerDemo")
+//        let nib2 = UINib(nibName: "HomeViewController", bundle: bundle)
+//        let owner = HomeViewController(nibName: "HomeViewController", bundle: bundle)
+//        let vc = nib2.instantiate(withOwner: owner).first as? UIViewController
+//
+//
+//        let nib = UINib(nibName: "HomeViewController", bundle: getBundle())
+////       let test = b?.loadNibNamed("HomeViewController", owner: self)
+////        let x = nib.instantiate(withOwner: self)
+//        let view = nib.instantiate(withOwner: self, options: nil).first as! UIViewController
+        window?.rootViewController = vc
         window?.makeKeyAndVisible()
        
         return true
     }
-
+    func getBundle() -> Bundle? {
+        let podBundle = Bundle(for: type(of: self))
+        guard let podBundleURL = podBundle.url(forResource: "org.cocoapods.NegoLoggerDemo", withExtension: "bundle") else { return nil }
+        let bundle = Bundle(url: podBundleURL)
+        return bundle
+    }
 
 }
 
