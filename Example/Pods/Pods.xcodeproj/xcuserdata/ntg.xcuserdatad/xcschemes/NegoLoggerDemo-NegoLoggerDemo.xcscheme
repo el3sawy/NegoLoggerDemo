@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8CE74D57CE8A6C4D28BD8D1FE60BA29E"
-               BuildableName = "MyPodResources.bundle"
-               BlueprintName = "NegoLoggerDemo-MyPodResources"
+               BlueprintIdentifier = "F48C78BFCF10B93A42EC0DFF0686D772"
+               BuildableName = "NegoLoggerDemo.bundle"
+               BlueprintName = "NegoLoggerDemo-NegoLoggerDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

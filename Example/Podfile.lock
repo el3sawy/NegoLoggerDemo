@@ -11,11 +11,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NegoLoggerDemo:
-    :commit: 514b0c30a1301b9eb4aeb70f118899a2cde9106f
+    :commit: 79d7b71159c7d1e7e57836a13b40e8dc5dbb4f3a
     :git: https://github.com/el3sawy/NegoLoggerDemo.git
 
 SPEC CHECKSUMS:
-  NegoLoggerDemo: 39a3a8f6b1ecedd94da37beb7ecc1413440c1e2e
+  NegoLoggerDemo: c48edadc9b687b0321a05e5388d4291597ba6fea
 
 PODFILE CHECKSUM: 87f6f32b36ae6f03bdc782239024af9ec625ee76
 

@@ -19,7 +19,7 @@
   "swift_versions": "5.0",
   "resources": "NegoLoggerDemo/*.xib",
   "resource_bundles": {
-    "MyPodResources": [
+    "NegoLoggerDemo": [
       "Pod/**/*.xib"
     ]
   },
