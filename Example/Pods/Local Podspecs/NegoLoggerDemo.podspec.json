@@ -17,8 +17,6 @@
   },
   "source_files": "NegoLoggerDemo/**/*.{swift,.xib}",
   "swift_versions": "5.0",
-  "resources": [
-    "NegoLoggerDemo/*.xib"
-  ],
+  "resources": "NegoLoggerDemo/**/*.xib",
   "swift_version": "5.0"
 }

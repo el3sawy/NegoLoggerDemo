@@ -89,10 +89,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "NegoLoggerDemo/**/*.{swift,.xib}"
+  spec.source_files  = "NegoLoggerDemo/**/*.{swift,xib}"
   spec.swift_versions = "5.0"
 
-  spec.resources = "NegoLoggerDemo/**/*.xib"
+  spec.resources = "NegoLoggerDemo/**/*{.xib}"
   # spec.resources = "NegoLoggerDemo/**/*.{xib}"
   # spec.resources    = "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   # spec.public_header_files = "Classes/**/*.h"
