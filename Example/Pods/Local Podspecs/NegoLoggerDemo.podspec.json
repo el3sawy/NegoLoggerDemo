@@ -15,9 +15,8 @@
     "git": "https://github.com/el3sawy/NegoLoggerDemo.git",
     "tag": "1.0.0"
   },
-  "source_files": "NegoLoggerDemo/**/*.{swift,xib}",
+  "source_files": "NegoLoggerDemo/**/*.{swift}",
   "swift_versions": "5.0",
-  "resources": "NegoLoggerDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
   "resource_bundles": {
     "MyPodResources": [
       "NegoLoggerDemo/Assets/*.png",
