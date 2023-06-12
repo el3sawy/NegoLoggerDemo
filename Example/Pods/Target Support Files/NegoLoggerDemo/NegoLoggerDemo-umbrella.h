@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NegoLoggerDemo.h"
 
 FOUNDATION_EXPORT double NegoLoggerDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char NegoLoggerDemoVersionString[];

@@ -19,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        BaseViewModel().fetchData()
         window = UIWindow()
 //        let vc = HomeViewController.loadFromNib()
-        let nib = UINib(nibName: "HomeViewController", bundle: Bundle(for: HomeViewController.self))
+        let b = Bundle(identifier: "NegoLoggerDemo")
+        let nib = UINib(nibName: "HomeViewController", bundle: b)
+       let test = b?.loadNibNamed("HomeViewController", owner: self)
+        let x = nib.instantiate(withOwner: self)
         let view = nib.instantiate(withOwner: self, options: nil).first as! UIViewController
         window?.rootViewController = view
         window?.makeKeyAndVisible()
