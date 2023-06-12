@@ -35,7 +35,8 @@ public class HomeViewController: UIViewController {
 public extension UIViewController {
     static func loadFromNib() -> Self {
         func instantiateFromNib<T: UIViewController>() -> T {
-            return T.init(nibName: String(describing: T.self), bundle: nil)
+            let bundle = Bundle(identifier: "org.cocoapods.NegoLoggerDemo")
+            return T.init(nibName: String(describing: T.self), bundle: bundle)
         }
 
         return instantiateFromNib()
